@@ -1,0 +1,19 @@
+{
+  "name": "sasdn-error",
+  "version": "0.0.1",
+  "description": "--- Version Control | Version | Date       | Author      | Change Description | | ------- | ---------- | ----------- | ------------------ | | 1.0     | 28/11/2017 | Shen YiQian | Document created   |",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShenYiQian/SASDN-Error.git"
+  },
+  "author": "shenyiqian@shinezone.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShenYiQian/SASDN-Error/issues"
+  },
+  "homepage": "https://github.com/ShenYiQian/SASDN-Error#readme",
+  "dependencies": {
+    "node-fetch": "^1.7.3"
+  }
+}
