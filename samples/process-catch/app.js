@@ -28,5 +28,6 @@ async function throwRejection() {
     }
 }
 
+console.log('Sample to show: Your Error would be lost when thrown in async logic');
 throwException().then(_ => _);
 throwRejection().then(_ => _);

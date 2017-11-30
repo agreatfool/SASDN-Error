@@ -1,4 +1,4 @@
-var fetch = require('node-fetch');
+const fetch = require('node-fetch');
 
 let url = 'http://traefik.gateway.shinezone.com:8580/api/providers/kubernetes/backends';
 
@@ -15,19 +15,19 @@ function fetchApi(url) {
         })
         .catch((e) => {
             console.log('catch error = ', e);
-        })
+        });
 }
-
-fetchApi(url);
 
 async function asyncApi(url) {
     try {
-       let response = await fetch(url);
-       let json = await response.json();
-       console.log('async get json = ', json);
+        let response = await fetch(url);
+        let json = await response.json();
+        console.log('async get json = ', json);
     } catch (e) {
         console.log('catch error = ', e);
     }
 }
 
-asyncApi(url);
+console.log('Sample to show: ...');
+fetchApi(url);
+asyncApi(url).then(_ => _);
