@@ -1,6 +1,6 @@
 {
   "name": "sasdn-error",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Error handling rules",
   "main": "index.js",
   "repository": {
